@@ -2,9 +2,9 @@ import React from "react";
 
 const Tooltip = ({ text }) => {
   return (
-    <div className="tooltip">
-      <h2 className="tooltiptext">{text}</h2>
-    </div>
+    <h2 className="tooltip">
+      <div className="tooltiptext">{text}</div>
+    </h2>
   );
 };
 
