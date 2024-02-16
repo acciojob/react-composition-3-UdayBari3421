@@ -1,1 +1,13 @@
+* {
+    margin: 1px;
+}
 
+.tooltip {
+    position: relative;
+    left: 20px;
+    background: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
