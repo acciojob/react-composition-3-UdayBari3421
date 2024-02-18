@@ -33,7 +33,7 @@ const App = () => {
         Hover me
       </h2>
 
-      {showTooltip1 && <Tooltip text="This is a another tooltip " />}
+      {showTooltip1 && <Tooltip text="This is a another tooltip" />}
       <p
         style={{ padding: "20px", borderBottom: "1px solid" }}
         onMouseEnter={handleMouseEnter1}
